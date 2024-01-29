@@ -12,7 +12,7 @@
         <menuitem   id="menu_alumnado"
                     name="Web"
                     parent="menu_principal"
-                    sequence="5"
+                    sequence="6"
                     action="action_alumnado_url"
         />
     </data>
