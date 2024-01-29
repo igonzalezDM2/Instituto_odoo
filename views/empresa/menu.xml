@@ -12,10 +12,13 @@
         <!-- Barra para empresa -->
         <menuitem   id="menu_empresa"
                     name="Empresa"
-                    parent="menu_principal"/>
-        <menuitem   id="menu_empresa_todos"
+                    parent="menu_principal"
+                    sequence="2"
+                    action="action_empresa_tree"
+        />
+        <!--<menuitem   id="menu_empresa_todos"
                     name="Ver todos"
                     parent="menu_empresa"
-                    action="action_empresa_tree"/>
+                    action="action_empresa_tree"/>-->
     </data>
 </odoo>

@@ -7,23 +7,25 @@
             <field name="res_model">instituto.alumnado</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <record model="ir.actions.act_url" id="action_alumnado_url">
+        <!--<record model="ir.actions.act_url" id="action_alumnado_url">
             <field name="name">Ver alumnos</field>
             <field name="url">https://ciudadjardin.hezkuntza.net/es/</field>
-        </record>
+        </record>-->
 
 
         <!-- Barra para alumnado -->
         <menuitem   id="menu_alumnado"
                     name="Alumnos"
-                    parent="menu_principal"/>
-        <menuitem   id="menu_alumnado_todos"
+                    parent="menu_principal"
+                    sequence="1"
+                    action="action_alumnado_tree"/>
+        <!--<menuitem   id="menu_alumnado_todos"
                     name="Ver todos"
                     parent="menu_alumnado"
                     action="action_alumnado_tree"/>
         <menuitem   id="menu_alumnado_url"
                     name="Web del instituto"
                     parent="menu_alumnado"
-                    action="action_alumnado_url"/>
+                    action="action_alumnado_url"/>-->
     </data>
 </odoo>

@@ -27,6 +27,7 @@
         'views/modulo/view_tree.xml',
         'views/modulo/view_kanban.xml',
         'views/modulo/menu.xml',
+        'views/web/menu.xml',
     ],
     'installable': True,
     'application': True,

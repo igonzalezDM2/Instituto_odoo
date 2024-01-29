@@ -12,10 +12,13 @@
         <!-- Barra para tutoria_fct -->
         <menuitem   id="menu_modulo"
                     name="Módulos"
-                    parent="menu_principal"/>
-        <menuitem   id="menu_modulo_todos"
+                    parent="menu_principal"
+                    sequence="3"
+                    action="action_modulo_tree"
+        />
+        <!--<menuitem   id="menu_modulo_todos"
                     name="Ver todos"
                     parent="menu_modulo"
-                    action="action_modulo_tree"/>
+                    action="action_modulo_tree"/>-->
     </data>
 </odoo>

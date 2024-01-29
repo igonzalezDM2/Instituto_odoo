@@ -12,10 +12,13 @@
         <!-- Barra para tutoria_fct -->
         <menuitem   id="menu_tutoria_fct"
                     name="Tutoría"
-                    parent="menu_principal"/>
-        <menuitem   id="menu_tutoria_fct_todos"
+                    parent="menu_principal"
+                    sequence="4"
+                    action="action_tutoria_fct_tree"
+        />
+        <!--<menuitem   id="menu_tutoria_fct_todos"
                     name="Ver todos"
                     parent="menu_tutoria_fct"
-                    action="action_tutoria_fct_tree"/>
+                    action="action_tutoria_fct_tree"/>-->
     </data>
 </odoo>

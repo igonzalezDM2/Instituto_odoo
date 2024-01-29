@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--Lanza la web-->
+        <record model="ir.actions.act_url" id="action_alumnado_url">
+            <field name="name">Ver alumnos</field>
+            <field name="url">https://ciudadjardin.hezkuntza.net/es/</field>
+        </record>
+
+
+        <!-- Barra para la web -->
+        <menuitem   id="menu_alumnado"
+                    name="Web"
+                    parent="menu_principal"
+                    sequence="5"
+                    action="action_alumnado_url"
+        />
+    </data>
+</odoo>
