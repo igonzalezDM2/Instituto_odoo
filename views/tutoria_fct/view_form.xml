@@ -1,0 +1,22 @@
+<odoo>
+    <!-- Vista de Formulario para Tutoría -->
+    <record model="ir.ui.view" id="view_tutoria_fct_form">
+        <field name="name">tutoria_fct.ver.form</field>
+        <field name="model">instituto.tutoria_fct</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="nombre"/>
+                        <field name="apellidos"/>
+                        <field name="email"/>
+                        <field name="direccion"/>
+                        <field name="codigo_postal"/>
+                        <field name="alumnado"/>
+                        <field name="modulos"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

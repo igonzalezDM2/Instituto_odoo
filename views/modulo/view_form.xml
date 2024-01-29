@@ -1,0 +1,18 @@
+<odoo>
+    <!-- Vista de Formulario para Módulo -->
+    <record model="ir.ui.view" id="view_modulo_form">
+        <field name="name">modulo.ver.form</field>
+        <field name="model">instituto.modulo</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="nombre"/>
+                        <field name="horas"/>
+                        <field name="tutores"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,36 @@
+<odoo>
+    <!-- Vista de Lista para Alumnado -->
+    <record model="ir.ui.view" id="view_alumnado_tree">
+        <field name="name">alumnado.ver.tree</field>
+        <field name="model">instituto.alumnado</field>
+        <field name="arch" type="xml">
+            <tree>
+                        <field name="nombre"/>
+                        <field name="apellidos"/>
+                        <field name="fecha_nacimiento"/>
+                        <field name="direccion"/>
+                        <field name="codigo_postal"/>
+                        <field name="email"/>
+                        <field name="ciclo_formativo"/>
+                        <field name="coche"/>
+                        <field name="otros"/>
+                        <field name="nota_media_texto"/>
+                        <field name="empresa"/>
+                        <field name="tutor"/>
+            </tree>
+        </field>
+    </record>
+
+        <!-- Vista busqueda-->
+    <record id="view_alumnado_search" model="ir.ui.view">
+        <field name="name">Búsqueda de Alumnos por nombre</field>
+        <field name="model">instituto.alumnado</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="nombre" filter_domain="['|', ('nombre', 'ilike', self), ('apellidos', 'ilike', self)]"/>
+                <filter name="sobresalientes" string="Más de 9" domain="[('nota_media','>=',9)]"/>
+                <filter name="kuruma" string="Coche" domain="[('coche','=',True)]"/>
+             </search>
+        </field>
+    </record>
+</odoo>

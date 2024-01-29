@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_instituto_alumnado,instituto.alumnado,model_instituto_alumnado,,1,1,1,1
+access_instituto_empresa,instituto.empresa,model_instituto_empresa,,1,1,1,1
+access_instituto_modulo,instituto.modulo,model_instituto_modulo,,1,1,1,1
+access_instituto_tutoria_fct,instituto.tutoria_fct,model_instituto_tutoria_fct,,1,1,1,1

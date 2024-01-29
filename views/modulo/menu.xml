@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Menu para tutoria_fct -->
+        <record model="ir.actions.act_window" id="action_modulo_tree">
+            <field name="name">Ver módulos</field>
+            <field name="res_model">instituto.modulo</field>
+            <field name="view_mode">tree,form,kanban</field>
+        </record>
+
+
+        <!-- Barra para tutoria_fct -->
+        <menuitem   id="menu_modulo"
+                    name="Módulos"
+                    parent="menu_principal"/>
+        <menuitem   id="menu_modulo_todos"
+                    name="Ver todos"
+                    parent="menu_modulo"
+                    action="action_modulo_tree"/>
+    </data>
+</odoo>

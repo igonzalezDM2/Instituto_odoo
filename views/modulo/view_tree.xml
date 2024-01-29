@@ -1,0 +1,14 @@
+<odoo>
+    <!-- Vista de Lista para Módulo -->
+    <record model="ir.ui.view" id="view_modulo_tree">
+        <field name="name">modulo.ver.tree</field>
+        <field name="model">instituto.modulo</field>
+        <field name="arch" type="xml">
+            <tree>
+                        <field name="nombre"/>
+                        <field name="horas"/>
+                        <field name="tutores"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
