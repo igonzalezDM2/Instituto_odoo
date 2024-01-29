@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <!--Lanza la web-->
+        <!--Lanza la web (NO VA A SER USADA, SE INTEGRARÁ EN ALUMNADO)-->
         <record model="ir.actions.act_url" id="action_alumnado_url">
             <field name="name">Ver alumnos</field>
             <field name="url">https://ciudadjardin.hezkuntza.net/es/</field>
@@ -12,7 +12,7 @@
         <menuitem   id="menu_alumnado"
                     name="Web"
                     parent="menu_principal"
-                    sequence="6"
+                    sequence="7"
                     action="action_alumnado_url"
         />
     </data>

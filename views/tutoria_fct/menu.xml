@@ -13,7 +13,7 @@
         <menuitem   id="menu_tutoria_fct"
                     name="Tutoría"
                     parent="menu_principal"
-                    sequence="5"
+                    sequence="6"
                     action="action_tutoria_fct_tree"
         />
         <!--<menuitem   id="menu_tutoria_fct_todos"

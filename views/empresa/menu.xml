@@ -13,7 +13,7 @@
         <menuitem   id="menu_empresa"
                     name="Empresa"
                     parent="menu_principal"
-                    sequence="3"
+                    sequence="4"
                     action="action_empresa_tree"
         />
         <!--<menuitem   id="menu_empresa_todos"

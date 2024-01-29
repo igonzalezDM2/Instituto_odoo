@@ -13,7 +13,7 @@
         <menuitem   id="menu_modulo"
                     name="Módulos"
                     parent="menu_principal"
-                    sequence="4"
+                    sequence="5"
                     action="action_modulo_tree"
         />
         <!--<menuitem   id="menu_modulo_todos"
